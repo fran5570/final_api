@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from datetime import datetime
 from app.database import Base
 
+# Definición del modelo User, que representa la tabla "users" en la base de datos
 class User(Base):
     __tablename__ = "users"
 
